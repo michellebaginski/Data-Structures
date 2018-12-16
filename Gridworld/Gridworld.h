@@ -139,7 +139,7 @@ public:
             grid[row][col].back = temp;             // set the second to last member to be the last
         }
         // killing a middle member
-        else if(victim->next != nullptr && victim->prev != nullptr) {
+        else if (victim->next != nullptr && victim->prev != nullptr) {
             temp = victim->prev;                     // save previous and next members
             temp2 = victim->next;
             temp->next = temp2;                      // adjust the previous and next pointers after removing the member
