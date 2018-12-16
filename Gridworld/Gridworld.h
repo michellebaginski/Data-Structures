@@ -333,7 +333,7 @@ public:
      * description:  returns number of columns in world
      */
     int num_cols()const {
-        return this->cols;;
+        return this->cols;
     }
     
 };
