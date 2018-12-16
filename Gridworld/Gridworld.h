@@ -325,7 +325,7 @@ public:
      * description:  returns number of rows in world
      */
     int num_rows()const {
-        return this->rows;;
+        return this->rows;
     }
     
     /**
